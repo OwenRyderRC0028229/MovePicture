@@ -69,6 +69,7 @@ namespace MovePicture
 
         private void button7_Click(object sender, EventArgs e)
         {
+            if(pictureBox1.Location. Y > 0 && pictureBox1.Location.Y - 5 < ClientRectangle.Height - pictureBox1.Height)
             pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y - 5);
         }
 
